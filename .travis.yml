@@ -27,6 +27,9 @@ matrix:
       env: "RAILS=4.1.11"
     - rvm: 2.1
       env: "RAILS=4.2.2"
+  allow_failures:
+    - rvm: 2.2
+      env: "RAILS=3.2.21"
 notifications:
   irc:
     channels:
